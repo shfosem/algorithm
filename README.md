@@ -64,6 +64,7 @@
         040. 숫자 문자열과 영단어
              > 문자열 함수 활용(replace)
         041. 삼총사
+             > from itertools import combinations           :combinations 함수 활용해서 조합 기능 사용가능
         
 
          
