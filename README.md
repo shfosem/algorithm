@@ -59,8 +59,10 @@
              > rjust(length, char) : len만큼 char을 앞에 붙여줌
              > bin(a|b) : a|b 연산 후 binary로 반환
         038. 문자열 내 마음대로 정렬하기
+             > 정렬 (key=lambda x : (x[n],x)) : x의 n번째 요소 그 다음  x를 기준으로 정렬
         039. K번째수
         040. 숫자 문자열과 영단어
+             > 문자열 함수 활용(replace)
         041. 삼총사
         
 
