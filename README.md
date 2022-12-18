@@ -65,6 +65,13 @@
              > 문자열 함수 활용(replace)
         041. 삼총사
              > from itertools import combinations           :combinations 함수 활용해서 조합 기능 사용가능
+        042. 두 개 뽑아서 더하기
+        043. 2016년
+        044. 폰켓몬
+        045. 소수 찾기
+        046. 모의고사
+        047. 소수 만들기
+        
         
 
          
