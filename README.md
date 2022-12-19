@@ -1,4 +1,4 @@
-# algorithmPy
+# algorithm
 코테 준비 코드 정리
 ====================
 + Programmers 연습문제:
