@@ -2,7 +2,6 @@
 class Solution {
     public int solution(int[] array, int height) {
         return (int)Arrays.stream(array).filter(i -> i>height).count();
-
         /*
         int answer = 0;
         for(int a : array){
