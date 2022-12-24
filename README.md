@@ -30,19 +30,27 @@
         022. 편지
         023. 배열 원소의 길이
              > int형 Array가 아닐 때 IntStream으로 반환하려면 mapToInt()
-
-             
         024. 짝수 홀수 개수
+             > IntStream.of(...values...)로 IntStream 생성  
         025. 아이스 아메리카노
+             > 프로그래머스 solution 메소드 반환형 바꿔줘도 됨
         026. 배열 자르기
+             > Arrays.copyOfRange()로 [x,y) 범위 복사
         027. 짝수는 싫어요
+             > IntStream.rangeClosed(a,b) [a,b] 구간 정수를 담은 IntStream반환
         028. 특정 문자 제거하기
+             > replace 자체가 모든 일치하는 부분들에 대해 처리
         029. 최댓값 만들기(1)
         030. 문자 반복 출력하기
+             > repeat()쓰면 코드는 간단하지만 시간이 훨씬 오래걸림.
         031. 중앙값 구하기
         032. 문자열안에 문자열
+             > str.contains()
         033. 순서쌍의 개수
+             > stream().filter().count() 의 반환타입은 long
         034. 배열의 유사도
+        035. 제곱수 판별하기
+             > Math.sqrt()로 제곱근 (반환타입 : double)
 
     
     
