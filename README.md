@@ -73,9 +73,9 @@
         049. 가장 큰 수 찾기
              > index구해야 할 때, indexOf(val); 로 index 얻어올 수 있음
         050. 약수 구하기
-             > import java.util.stream.*; -> IntStream 사용가능
-             
+             > import java.util.stream.*; -> IntStream 사용가능             
         051. 배열 회전시키기
+             > 배열 3개를 이어붙이면 직관적으로 해결가능.
         052. 피자 나눠 먹기(2)
         053. 외계행성의 나이
 
