@@ -65,9 +65,15 @@
         044. 대문자와 소문자
         045. 암호 해독
         046. 문자열 정렬하기(1)
+             > 배열이 아닐 때 정렬
+             > Collections.sort(); 로 List, ArrayList 정렬 가능
+             > list.sort(Comparator.naturalOrder());
         047. 주사위의 개수
         048. 가위 바위 보
         049. 가장 큰 수 찾기
+             > index구해야 할 때, indexOf(val); 로 index 얻어올 수 있음
+             
+        050. 
         
 
  
