@@ -2,7 +2,7 @@
 코테 준비 코드 정리
 ====================
 + Programmers 연습문제:
-    - LEVEL 0 : 정답률 높은 순서대로 풀기(JAVA) / 정답 제출 후 Stream 활용 문법 익히기
+    - LEVEL 0 : 정답률 높은 순서대로 풀기(JAVA) 
         001. 두 수의 차
         002. 두 수의 곱
         003. 두 수의 합
@@ -79,25 +79,30 @@
         052. 피자 나눠 먹기(2)
         053. 외계행성의 나이
              > char형을 int 값으로 불러오기. Character.getNumericValue(ch);
-
-
         054. 최댓값 만들기(2)
+             > Math.max(), min() 최대, 최소
         055. 인덱스 바꾸기
         056. 숫자 찾기
+             > str.indexOf() 활용하면 훨씬 간단하게 구현 가능
         057. 369게임
-
-        058. 문자열 정렬하기(2)
-        
+        058. 문자열 정렬하기(2)    
+             > str.toLowerCase() -> 소문자로 변환
+             > String.join(charSeq1, charSeq2) charSeq1에 charSeq2 이어붙인 String 반환
         059. 합성수 찾기
+             > 소수 판별 시, 나눠지는지 확인은 제곱근까지
         060. 중복된 문자 제거
+             > stream 사용 시 distinct() 키워드로 중복 제거 가능
+             > collect(Collectors.joining()); 으로 String 반환
         061. 모스부호(1)
+             > 문자열 비교는 equals()를 통해서
+             
         
 
  
 
     
     
-    - LEVEL 1 : 정답률 높은 순서대로 풀기(Python) / 정답 제출 후 다른 사람들 코드와 비교하며 Pythonic하게 코드 리팩토링
+    - LEVEL 1 : 정답률 높은 순서대로 풀기(Python) 
         001. 평균 구하기
         002. 짝수와 홀수
         003. 약수의 합
