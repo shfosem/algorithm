@@ -65,8 +65,8 @@
         044. 대문자와 소문자
         045. 암호 해독
         046. 문자열 정렬하기(1)
-             > 배열이 아닐 때 정렬
-             > Collections.sort(); 로 List, ArrayList 정렬 가능
+             > 배열이 아닐 때 정렬<br>
+             > Collections.sort(); 로 List, ArrayList 정렬 가능<br>
              > list.sort(Comparator.naturalOrder());
         047. 주사위의 개수
         048. 가위 바위 보
@@ -86,12 +86,12 @@
              > str.indexOf() 활용하면 훨씬 간단하게 구현 가능
         057. 369게임
         058. 문자열 정렬하기(2)    
-             > str.toLowerCase() -> 소문자로 변환
+             > str.toLowerCase() -> 소문자로 변환<br>
              > String.join(charSeq1, charSeq2) charSeq1에 charSeq2 이어붙인 String 반환
         059. 합성수 찾기
              > 소수 판별 시, 나눠지는지 확인은 제곱근까지
         060. 중복된 문자 제거
-             > stream 사용 시 distinct() 키워드로 중복 제거 가능
+             > stream 사용 시 distinct() 키워드로 중복 제거 가능<br>
              > collect(Collectors.joining()); 으로 String 반환
         061. 모스부호(1)
              > 문자열 비교는 equals()를 통해서
@@ -101,8 +101,8 @@
         064. 2차원으로 만들기
         065. 가까운 수
         066. k의 개수
-             > IntStream.rangeClosed(i,j) -> IntStream [i, j]
-             > mapToObj(String::valueOf) -> 해당 함수를 적용하여 매핑
+             > IntStream.rangeClosed(i,j) -> IntStream [i, j] <br>
+             > mapToObj(String::valueOf) -> 해당 함수를 적용하여 매핑 <br>
              > collect(Collectors.joining()) -> 해당 문자열 모두 이어붙이기.
         067. 진료순서 정하기
 
