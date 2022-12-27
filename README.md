@@ -100,10 +100,12 @@
              > 정렬해서 같은지 비교해도 되지만, 구성하는 char의 합, 곱이 같으면 같다고 생각해도 될 거 같아서 그렇게 구현하였음.
         064. 2차원으로 만들기
         065. 가까운 수
-
-
         066. k의 개수
+             > IntStream.rangeClosed(i,j) -> IntStream [i, j]
+             > mapToObj(String::valueOf) -> 해당 함수를 적용하여 매핑
+             > collect(Collectors.joining()) -> 해당 문자열 모두 이어붙이기.
         067. 진료순서 정하기
+
 
         068. 한 번만 등장한 문자
         069. 7의 개수
