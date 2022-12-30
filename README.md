@@ -109,7 +109,8 @@
              > TreeMap 사용해서 정렬된 EntrySet가져오기
         069. 7의 개수
         070. 이진수 더하기
-             > ParseInt(str, i); i진법으로 변환 가능..
+             > ParseInt(str, i); i진법str 10진법 정수로 변환 가능..<br>
+             >Integer.toString(num, i) 정수 num i진법 형태 str로 반환
         071. 숨어있는 숫자의 덧셈 (2)
              > split("[regex]")
         072. 공 던지기
@@ -117,17 +118,16 @@
         074. 영어가 싫어요
              > 숫자가 커질 수 있으니 정수 범위 잘 보기
         075. 소인수 분해
-
-
-
         076. 문자열 계산하기
         077. 구슬을 나누는 경우의 수
-        
+             > Combination 개수를 구하는 문제<br>
+             > BigInteger를 통해 매우 큰 수 계산
         078. 종이 자르기
-        
         079. 외계어 사전
+             > String.join("", CharSeq); => CharSequence 이어붙여서 String 만들기
         080. 캐릭터의 좌표
         081. 컨트롤 제트
+        
 
         082. 삼각형의 완성조건(2)
 
