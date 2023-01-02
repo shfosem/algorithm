@@ -19,4 +19,5 @@ def solution(board, moves):
                         basket.append(board[i][idx]) 
                 board[i][idx]=0
                 break
+            
     return answer
