@@ -1,4 +1,5 @@
 // 1. 최댓값과 최솟값
+
 import java.util.*;
 
 class Solution {
