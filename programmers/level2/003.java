@@ -1,4 +1,4 @@
-// 최솟값 만들기
+// 3.최솟값 만들기
 import java.util.*;
 class Solution
 {
