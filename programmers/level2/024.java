@@ -10,6 +10,7 @@ class Solution {
         
         return answer;
     }
+    
     int getNum(long idx, int n){
         if(idx%n < idx/n)
             return (int)(idx/n)+1;
