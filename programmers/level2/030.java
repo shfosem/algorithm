@@ -1,3 +1,4 @@
+// 30. k진수에서 소수 개수 구하기
 class Solution {
     public int solution(int n, int k) {
         StringBuilder sb = new StringBuilder();
