@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {    
     public int solution(int k, int[] tangerines) {
         int answer = 0;
-        Map<Integer, Integer> tm = new TreeMap<>();
+        Map<Integer, Integer> tm = new HashMap<>();
         
         for(int t : tangerines){
             if(tm.containsKey(t))
@@ -19,7 +19,6 @@ class Solution {
                 break;
         }
         
-
         return answer;
     }
 }
