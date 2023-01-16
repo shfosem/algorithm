@@ -3,8 +3,7 @@ import java.util.*;
 class Solution {
     
     public int solution(int k, int[][] dungeons) {
-        final int N = dungeons.length;
-        boolean[] visited = new boolean[N];    
+        final int N = dungeons.length; 
         int[][] output= new int[N][2];
         int answer = -1;
         
