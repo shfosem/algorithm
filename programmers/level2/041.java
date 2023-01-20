@@ -9,7 +9,7 @@ class Solution {
                 iBoard[i][j]= board[i].charAt(j)-'A'+1;
             }
         }
-        int repeat = m*n; // 반복의 횟수...
+        int repeat = m*n; 
         int answer = 0;
         while(repeat>0){
             Stack<Integer> xStck = new Stack<>();
