@@ -1,3 +1,4 @@
+// 65. 덧칠하기
 import java.util.*;
 class Solution { //안칠하고 jump 해도 됨!
     public int solution(int n, int m, int[] section) {
