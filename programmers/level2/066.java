@@ -1,3 +1,4 @@
+// 66. 전력망을 둘로 나누기
 // union-find
 import java.util.*;
 class Solution {
