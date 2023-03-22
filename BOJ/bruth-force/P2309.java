@@ -3,8 +3,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 public class P2309 {
-
-    final int TARGET = 100;
+// 일곱 난쟁이
+    
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[] heights = new int[9];
