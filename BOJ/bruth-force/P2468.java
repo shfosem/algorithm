@@ -1,3 +1,4 @@
+// 2468. 안전 영역
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
